@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48462584180",
+    "project_id": "converto-1e0a9",
+    "storage_bucket": "converto-1e0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48462584180:android:81c43d714f4087db3f7421",
+        "android_client_info": {
+          "package_name": "com.example.madpractical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48462584180-3ho3n0glub88aroaaeea202et8t379p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKaO7MTckmtcrcWfAl5YJwJkSB-hA_GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48462584180-3ho3n0glub88aroaaeea202et8t379p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

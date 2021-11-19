@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_id"
+        android:textSize="22sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/txt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/contact"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/btn_cancel" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/okay"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/btn_okay"/>
+    </LinearLayout>
+
+</LinearLayout>
